@@ -1,28 +1,28 @@
 {
-  "name": "tooltip-vue-js",
-  "version": "1.0.2",
-  "repository": "https://github.com/b13oleksandr/tooltip-vue.git",
-  "homepage": "https://b13oleksandr.github.io/tooltip-vue",
-  "description": "Vuejs tooltip",
+  "name": "vue-easy-tooltip",
+  "version": "0.0.1",
+  "description": "Vue.js tooltip component",
   "license": "MIT",
   "keywords": [
     "tooltip",
     "vue-tooltip",
     "tooltip-vue-js",
     "vue js tooltip",
-    "vue tooltip"
+    "vue tooltip",
+    "vue easy tooltip",
+    "vue simple tooltip"
   ],
-  "main": "dist/tooltip-vue.umd.js",
-  "module": "dist/tooltip-vue.esm.js",
-  "unpkg": "dist/tooltip-vue.min.js",
+  "main": "dist/vue-easy-tooltip.umd.js",
+  "module": "dist/vue-easy-tooltip.esm.js",
+  "unpkg": "dist/vue-easy-tooltip.min.js",
   "scripts": {
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/tooltip-vue.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/tooltip-vue.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/tooltip-vue.min.js"
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-easy-tooltip.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-easy-tooltip.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-easy-tooltip.min.js"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
