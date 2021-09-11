@@ -1,4 +1,4 @@
-# vue-js-tooltip
+# vue-easy-tooltip
 
 [Demo](https://b13oleksandr.github.io/vue-easy-tooltip/)
 
