@@ -11,6 +11,6 @@ git init
 git add -A
 git commit -m 'deploy docs'
 
-git push -f https://github.com/b13oleksandr/tooltip-vue.git master:gh-pages
+git push -f https://github.com/b13oleksandr/vue-easy-tooltip.git master:gh-pages
 
 cd -
