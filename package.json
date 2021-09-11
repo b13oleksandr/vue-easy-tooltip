@@ -48,8 +48,5 @@
   },
   "files": [
     "dist/*"
-  ],
-  "dependencies": {
-    "@rollup/plugin-buble": "^0.21.3"
-  }
+  ]
 }
