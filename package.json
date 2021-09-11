@@ -19,11 +19,7 @@
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-easy-tooltip.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-easy-tooltip.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-easy-tooltip.min.js",
-    "moo": "rollup -c build/rollup.config.js"
+    "build": "rollup -c build/rollup.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",

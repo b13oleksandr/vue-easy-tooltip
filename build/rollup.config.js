@@ -1,15 +1,18 @@
-import commonjs from '@rollup/plugin-commonjs' // Конвертирование CommonJS модулей в ES6
-import vue from 'rollup-plugin-vue' // Обработка однофайловых компонентов .vue
-// import buble from '@rollup/plugin-buble' // Транспиляция/добавление полифилов для умеренной поддержки браузеров
+import commonjs from '@rollup/plugin-commonjs'
+import vue from 'rollup-plugin-vue'
 import babel from '@rollup/plugin-babel'
 import { getBabelOutputPlugin } from '@rollup/plugin-babel'
 
 export default {
-  input: '../src/wrapper.js', // Путь до относительного package.json
+  input: 'src/wrapper.js',
   output: [
-    { file: '../dist/bundle.umd.js', format: 'umd', name: 'bundle.umd.js' },
-    { file: '../dist/bundle.esm.js', format: 'esm' },
-    { file: '../dist/bundle.min.js', format: 'iife' }
+    {
+      file: 'dist/vue-easy-tooltip.umd.js',
+      format: 'umd',
+      name: 'vue-easy-tooltip.umd.js'
+    },
+    { file: 'dist/vue-easy-tooltip.esm.js', format: 'esm' },
+    { file: 'dist/vue-easy-tooltip.min.js', format: 'iife' }
   ],
   plugins: [
     getBabelOutputPlugin({
@@ -18,9 +21,8 @@ export default {
     }),
     commonjs(),
     vue({
-      css: true, // Динамически внедряем CSS в тег <style>
-      compileTemplate: true // Явное преобразование шаблона в рендер-функцию
+      compileTemplate: true
     }),
-    babel() // Транспиляция в ES5
+    babel()
   ]
 }
