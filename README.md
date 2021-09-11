@@ -1,5 +1,7 @@
 # vue-js-tooltip
 
+[Demo](https://b13oleksandr.github.io/vue-easy-tooltip/)
+
 ## Installation
 ``` sh
 yarn add vue-easy-tooltip
