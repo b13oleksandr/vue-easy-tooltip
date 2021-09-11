@@ -33,5 +33,5 @@ module.exports = {
       ]
     }
   },
-  base: '/tooltip-vue/'
+  base: '/vue-easy-tooltip/'
 }
