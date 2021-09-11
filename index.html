@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue easy tooltip</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Vue.js tooltip component">
+    
+    <link rel="preload" href="/vue-easy-tooltip/assets/css/0.styles.1150bc28.css" as="style"><link rel="preload" href="/vue-easy-tooltip/assets/js/app.90159dfc.js" as="script"><link rel="preload" href="/vue-easy-tooltip/assets/js/4.3da56236.js" as="script"><link rel="preload" href="/vue-easy-tooltip/assets/js/1.6a98a292.js" as="script"><link rel="preload" href="/vue-easy-tooltip/assets/js/12.7a7509d5.js" as="script"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/10.2562e1dd.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/11.52dfa7d8.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/13.3087882b.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/14.a350a4ec.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/15.dd58ab1e.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/16.c617cb1d.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/3.f25fc7c0.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/5.6ee93a7b.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/6.478898b2.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/7.13382802.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/8.f36cc652.js"><link rel="prefetch" href="/vue-easy-tooltip/assets/js/9.c5e87579.js">
+    <link rel="stylesheet" href="/vue-easy-tooltip/assets/css/0.styles.1150bc28.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><header id="step-1" class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-easy-tooltip/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">Vue easy tooltip</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-easy-tooltip/guide/Installation.html" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="https://github.com/b13oleksandr/vue-easy-tooltip" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <main aria-labelledby="main-title" class="home"><header class="hero"><!----> <h1 id="main-title">
+      Vue easy tooltip
+    </h1> <!----> <!----></header> <!----> <div class="theme-default-content custom content__default"><h2 id="installation"><a href="#installation" class="header-anchor">#</a> Installation</h2> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> <span class="token function">add</span> vue-easy-tooltip
+</code></pre></div><div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">npm</span> i vue-easy-tooltip
+</code></pre></div></div> <div class="content__baseUsage"><h2 id="base-usage"><a href="#base-usage" class="header-anchor">#</a> Base usage</h2> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span>
+    Hover me
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>vue-easy-tooltip</span><span class="token punctuation">&gt;</span></span>
+      I am a tooltip
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>vue-easy-tooltip</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> VueEasyTooltip <span class="token keyword">from</span> <span class="token string">&quot;vue-easy-tooltip&quot;</span>
+  
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    VueEasyTooltip
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <div style="text-align:center;padding:16px;"><button class="custom-button" data-v-0f11e9ff>
+        Hover me
+        <!----></button></div> <div class="content__withVModel"><h2 id="with-v-model"><a href="#with-v-model" class="header-anchor">#</a> With v-model</h2> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>tooltip = !tooltip<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    Click me
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>vue-easy-tooltip</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>tooltip<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      I am a tooltip
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>vue-easy-tooltip</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> VueEasyTooltip <span class="token keyword">from</span> <span class="token string">&quot;vue-easy-tooltip&quot;</span>
+  
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    VueEasyTooltip
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    tooltip<span class="token operator">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <div style="text-align:center;padding:16px;"><button class="custom-button" data-v-0f11e9ff>
+        Click me
+        <!----></button></div> <!----></main></div><div class="global-ui"></div></div>
+    <script src="/vue-easy-tooltip/assets/js/app.90159dfc.js" defer></script><script src="/vue-easy-tooltip/assets/js/4.3da56236.js" defer></script><script src="/vue-easy-tooltip/assets/js/1.6a98a292.js" defer></script><script src="/vue-easy-tooltip/assets/js/12.7a7509d5.js" defer></script>
+  </body>
+</html>
