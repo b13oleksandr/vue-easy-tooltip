@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Tooltip Vue',
-  description: 'Vue.js tooltip',
+  title: 'Vue easy tooltip',
+  description: 'Vue.js tooltip component',
   themeConfig: {
     nav: [
       {
@@ -9,7 +9,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://v1.vuepress.vuejs.org'
+        link: 'https://github.com/b13oleksandr/vue-easy-tooltip'
       }
     ],
     sidebar: {

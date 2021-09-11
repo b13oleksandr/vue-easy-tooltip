@@ -5,38 +5,37 @@
 <template>
   <button>
     Hover me
-    <tooltip-vue>
+    <vue-easy-tooltip>
       I am a tooltip
-    </tooltip-vue>
+    </vue-easy-tooltip>
   </button>
 </template>
 
 <script>
-  import TooltipVue from "tooltip-vue"
+  import VueEasyTooltip from "vue-easy-tooltip"
   
   components: {
-    TooltipVue
+    VueEasyTooltip
   }
 </script>
 ```
-
 
 ## With v-model
 ``` vue
 <template>
   <button @click="tooltip = !tooltip">
     Click me
-    <tooltip-vue v-model="tooltip">
+    <vue-easy-tooltip v-model="tooltip">
       I am a tooltip
-    </tooltip-vue>
+    </vue-easy-tooltip>
   </button>
 </template>
 
 <script>
-  import TooltipVue from "tooltip-vue"
+  import VueEasyTooltip from "vue-easy-tooltip"
   
   components: {
-    TooltipVue
+    VueEasyTooltip
   },
   
   data: () => ({

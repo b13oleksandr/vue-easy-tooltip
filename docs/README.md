@@ -10,11 +10,11 @@ footer: null
 ---
 ## Installation
 ``` sh
-yarn add tooltip-vue
+yarn add vue-easy-tooltip
 ```
 
 ``` sh
-npm i tooltip-vue
+npm i vue-easy-tooltip
 ```
 
 ::: slot baseUsage
@@ -23,17 +23,17 @@ npm i tooltip-vue
 <template>
   <button>
     Hover me
-    <tooltip-vue>
+    <vue-easy-tooltip>
       I am a tooltip
-    </tooltip-vue>
+    </vue-easy-tooltip>
   </button>
 </template>
 
 <script>
-  import TooltipVue from "tooltip-vue"
+  import VueEasyTooltip from "vue-easy-tooltip"
   
   components: {
-    TooltipVue
+    VueEasyTooltip
   }
 </script>
 ```
@@ -46,17 +46,17 @@ npm i tooltip-vue
 <template>
   <button @click="tooltip = !tooltip">
     Click me
-    <tooltip-vue v-model="tooltip">
+    <vue-easy-tooltip v-model="tooltip">
       I am a tooltip
-    </tooltip-vue>
+    </vue-easy-tooltip>
   </button>
 </template>
 
 <script>
-  import TooltipVue from "tooltip-vue"
+  import VueEasyTooltip from "vue-easy-tooltip"
   
   components: {
-    TooltipVue
+    VueEasyTooltip
   },
   
   data: () => ({

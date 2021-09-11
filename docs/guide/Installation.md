@@ -1,8 +1,8 @@
 # Installation
 ``` sh
-yarn add tooltip-vue
+yarn add vue-easy-tooltip
 ```
 
 ``` sh
-npm i tooltip-vue
+npm i vue-easy-tooltip
 ```
